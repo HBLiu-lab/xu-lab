@@ -1,3 +1,5 @@
+# TODO: Replace placeholder SVGs with verified research figures or photos.
+# Put real files in assets/images/research/ and keep every entry with title, image, and description.
 - title: "Novel Magnetically-Controlled Micro-Robot Design & Fabrication"
   image: "assets/images/research/design.svg"
   description: "Research on magnetic fluids, micro-robot swarms, soft thin-film and bioinspired robots, and continuum soft surgical robots for biomedical and restricted-space applications."

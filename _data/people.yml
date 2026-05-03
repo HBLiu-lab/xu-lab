@@ -5,6 +5,7 @@ pi:
   email: "tt.xu@siat.ac.cn"
   address: "1068 Xueyuan Avenue, Xili, Nanshan District, Shenzhen, Guangdong, 518055"
   scholar: "https://scholar.google.com/citations?user=jSv44msAAAAJ&hl"
+  # TODO: Replace with assets/images/people/xu_tiantian.jpg after the verified PI portrait is available.
   photo: "assets/images/people/placeholder-person.svg"
   awards:
     - "National Outstanding Youth Fund (B)"
@@ -20,6 +21,14 @@ pi:
     - "RAL Associate Editor"
   bio: "Prof. Xu Tiantian is a Principal Researcher and National Outstanding Youth Fund recipient at SIAT. She has long conducted systematic research on magnetically-driven micro-robots for targeted therapy, establishing autonomous path planning and cooperative motion control methods. She has published 30+ IEEE Transactions papers, including 4 in TRO, and 10+ Nature-family papers as corresponding author."
 
+# TODO: Put verified member headshots in assets/images/people/.
+# Example:
+# postdocs:
+#   - name: "TODO: verified name"
+#     degree_source: "TODO: verified degree source"
+#     title: "Postdoctoral Associate"
+#     photo: "assets/images/people/member_name.jpg"
+#     bio: "TODO: verified short bio."
 postdocs: []
 
 phd_students: []

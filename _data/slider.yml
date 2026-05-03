@@ -1,3 +1,6 @@
+# TODO: Replace placeholder SVGs with verified homepage images.
+# Recommended size: 900x480 px, or another image with the same wide aspect ratio.
+# Put real files in assets/images/slider/ and keep every entry with src, alt, and caption.
 - src: "assets/images/slider/slide-1.svg"
   alt: "Novel magnetically-controlled micro-robot design and fabrication"
   caption: "Novel Magnetically-Controlled Micro-Robot Design & Fabrication"
