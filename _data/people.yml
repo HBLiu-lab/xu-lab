@@ -5,8 +5,7 @@ pi:
   email: "tt.xu@siat.ac.cn"
   address: "1068 Xueyuan Avenue, Xili, Nanshan District, Shenzhen, Guangdong, 518055"
   scholar: "https://scholar.google.com/citations?user=jSv44msAAAAJ&hl"
-  # TODO: Replace with assets/images/people/xu_tiantian.jpg after the verified PI portrait is available.
-  photo: "assets/images/people/placeholder-person.svg"
+  photo: "/assets/images/people/xu_tiantian.jpg"
   awards:
     - "National Outstanding Youth Fund (B)"
     - "IROS 2019 Best Application Paper (1/2494)"

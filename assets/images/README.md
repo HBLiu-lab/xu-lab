@@ -18,4 +18,4 @@ All templates pass these paths through Jekyll's `relative_url` filter, so they w
 
 ## Current Placeholders
 
-The existing SVG files are placeholders and should remain until verified real images are available. When replacing an image, update the relevant YAML file instead of editing templates.
+The existing SVG files are placeholders and should remain as fallbacks. The first batch of real images has been connected in the YAML data files. When replacing or adding images, update the relevant YAML file instead of editing templates.

@@ -6,7 +6,9 @@ title: Research
 <div class="research-grid">
   {% for area in site.data.research %}
   <article class="research-card">
-    <img src="{{ area.image | relative_url }}" alt="{{ area.title }}" loading="lazy">
+    <div class="research-media">
+      <img src="{{ area.image | relative_url }}" alt="{{ area.title }}" loading="lazy">
+    </div>
     <div class="research-card-body">
       <h2>{{ area.title }}</h2>
       <p>{{ area.description }}</p>

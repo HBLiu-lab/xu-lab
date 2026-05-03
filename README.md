@@ -47,6 +47,14 @@ photo: "/assets/images/people/xu_tiantian.jpg"
 
 Project convention is to omit the leading slash in data files.
 
+## Current Image Naming
+
+- PI portrait: `assets/images/people/xu_tiantian.jpg`
+- Homepage slider: `assets/images/slider/slider-1.jpg`, `slider-2.jpg`, `slider-3.jpg`
+- Research cards: `assets/images/research/design.jpg`, `control.jpg`, `applications.jpg`
+- Gallery full-size photos: place in `assets/images/gallery/`
+- Gallery thumbnails: place in `assets/images/gallery/thumbs/`; when no thumbnail exists, use the full-size image as `thumb`
+
 ## Image Directories
 
 - `assets/images/slider/`: Homepage slider images, recommended 900x480 px.

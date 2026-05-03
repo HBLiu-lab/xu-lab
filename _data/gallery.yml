@@ -1,19 +1,14 @@
-# TODO: Replace placeholder SVGs with verified lab photos.
-# Example:
-# - src: "assets/images/gallery/lab2026.jpg"
-#   thumb: "assets/images/gallery/thumbs/lab2026.jpg"
-#   caption: "Lab group photo 2026"
-#
+# Gallery photos. If a separate thumbnail does not exist, set thumb to the same image as src.
 # Full-size images go in assets/images/gallery/.
 # Thumbnail images go in assets/images/gallery/thumbs/.
-- src: "assets/images/gallery/lab-placeholder.svg"
-  thumb: "assets/images/gallery/lab-placeholder.svg"
-  caption: "TODO: Lab group photo"
+- src: "assets/images/gallery/group-photo-2024.jpg"
+  thumb: "assets/images/gallery/thumbs/group-photo-2024-thumb.jpg"
+  caption: "Lab group photo 2024"
 
-- src: "assets/images/gallery/demo-placeholder.svg"
-  thumb: "assets/images/gallery/demo-placeholder.svg"
-  caption: "TODO: Micro-robot demonstration photo"
+- src: "assets/images/gallery/robot-demo.jpg"
+  thumb: "assets/images/gallery/robot-demo.jpg"
+  caption: "Micro-robot demonstration"
 
-- src: "assets/images/gallery/event-placeholder.svg"
-  thumb: "assets/images/gallery/event-placeholder.svg"
-  caption: "TODO: Academic event or lab activity photo"
+- src: "assets/images/gallery/lab-event.jpg"
+  thumb: "assets/images/gallery/lab-event.jpg"
+  caption: "Lab event"

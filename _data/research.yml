@@ -1,13 +1,13 @@
-# TODO: Replace placeholder SVGs with verified research figures or photos.
+# Research card images.
 # Put real files in assets/images/research/ and keep every entry with title, image, and description.
 - title: "Novel Magnetically-Controlled Micro-Robot Design & Fabrication"
-  image: "assets/images/research/design.svg"
+  image: "assets/images/research/design.jpg"
   description: "Research on magnetic fluids, micro-robot swarms, soft thin-film and bioinspired robots, and continuum soft surgical robots for biomedical and restricted-space applications."
 
 - title: "Multi-modal Motion & Cooperative Control"
-  image: "assets/images/research/control.svg"
+  image: "assets/images/research/control.jpg"
   description: "Development of multi-modal actuation mechanisms, autonomous path planning, and multi-agent cooperative control strategies in complex environments."
 
 - title: "Frontier Scene Applications"
-  image: "assets/images/research/applications.svg"
+  image: "assets/images/research/applications.jpg"
   description: "Translation of micro-robot technologies toward clinical targeted therapy and robotic operations in special restricted spaces."

@@ -234,7 +234,11 @@ p {
 .slide {
   position: absolute;
   inset: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  place-items: center;
   margin: 0;
+  background: var(--color-bg-alt);
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -245,16 +249,17 @@ p {
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .slide figcaption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  z-index: 2;
+  width: 100%;
   padding: 14px 20px;
   background: rgba(29, 45, 93, 0.86);
   color: #fff;
@@ -413,15 +418,15 @@ p {
 }
 
 .people-table td.photo {
-  width: 150px;
+  width: 170px;
 }
 
 .people-table td.photo img {
-  width: 128px;
-  aspect-ratio: 1 / 1;
+  width: 140px;
+  height: auto;
   border: 1px solid var(--color-border);
   border-radius: 4px;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--color-bg-alt);
 }
 
@@ -447,11 +452,7 @@ p {
 }
 
 .pi-table td.photo {
-  width: 180px;
-}
-
-.pi-table td.photo img {
-  width: 156px;
+  width: 170px;
 }
 
 .pi-table .name {
@@ -514,11 +515,20 @@ p {
   box-shadow: 0 4px 14px rgba(31, 43, 76, 0.06);
 }
 
+.research-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  background: var(--color-bg-alt);
+}
+
 .research-card img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  background: var(--color-bg-alt);
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .research-card-body {
@@ -618,11 +628,20 @@ p {
   box-shadow: 0 4px 14px rgba(31, 43, 76, 0.05);
 }
 
-.gallery-item img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.gallery-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
   background: var(--color-bg-alt);
+}
+
+.gallery-item img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   transition: transform 0.25s ease;
 }
 
@@ -863,7 +882,9 @@ p {
 
   .people-table td.photo img,
   .pi-table td.photo img {
-    width: 124px;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .people-table td.bio {
@@ -879,6 +900,11 @@ p {
 @media (max-width: 480px) {
   .slider-track {
     height: 240px;
+  }
+
+  .research-media,
+  .gallery-media {
+    height: 200px;
   }
 
   .slide figcaption {
