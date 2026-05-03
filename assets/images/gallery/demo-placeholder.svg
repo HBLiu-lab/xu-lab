@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Demonstration placeholder</title>
+  <rect width="640" height="480" fill="#eef3f8"/>
+  <path d="M110 260 C200 130 315 360 452 180 C505 110 555 165 585 230" fill="none" stroke="#2c3e7a" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="110" cy="260" r="26" fill="#c0392b"/>
+  <circle cx="452" cy="180" r="32" fill="#c0392b"/>
+  <text x="320" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#2c3e7a" font-weight="700">Demo Placeholder</text>
+</svg>

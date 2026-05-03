@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480" viewBox="0 0 980 480" role="img" aria-labelledby="title desc">
+  <title id="title">Research placeholder slide three</title>
+  <desc id="desc">Academic placeholder for biomedical applications.</desc>
+  <rect width="980" height="480" fill="#eef3f8"/>
+  <rect x="94" y="96" width="792" height="288" rx="8" fill="#ffffff" stroke="#dde1e7" stroke-width="3"/>
+  <path d="M185 256 H338 C386 256 390 188 430 188 C474 188 476 314 523 314 C560 314 572 256 612 256 H795" fill="none" stroke="#c0392b" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="490" cy="240" r="74" fill="#2c3e7a" opacity="0.18"/>
+  <circle cx="490" cy="240" r="22" fill="#2c3e7a"/>
+  <text x="490" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#2c3e7a" font-weight="700">Biomedical and Restricted-Space Applications</text>
+</svg>

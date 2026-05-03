@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Event placeholder</title>
+  <rect width="640" height="480" fill="#f5f7fa"/>
+  <rect x="130" y="90" width="380" height="230" fill="#ffffff" stroke="#dde1e7" stroke-width="4"/>
+  <rect x="170" y="130" width="300" height="30" fill="#2c3e7a" opacity="0.85"/>
+  <rect x="170" y="185" width="220" height="18" fill="#c0392b" opacity="0.85"/>
+  <rect x="170" y="230" width="260" height="18" fill="#7f8fbf" opacity="0.85"/>
+  <text x="320" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#2c3e7a" font-weight="700">Event Placeholder</text>
+</svg>

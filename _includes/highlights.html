@@ -1,0 +1,21 @@
+{% assign items = include.items | default: site.data.highlights %}
+<table class="highlights-table">
+  <tbody>
+    {% for item in items %}
+    <tr>
+      <td class="spacer"></td>
+      <td class="entry">
+        <p>
+          <strong>{{ item.date }}</strong>:
+          <strong>{{ item.headline }}</strong>
+          {{ item.body }}
+          {% if item.link %}
+          <a href="{{ item.link | relative_url }}"{% if item.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.link_text | default: "Read more" }}</a>
+          {% endif %}
+        </p>
+      </td>
+      <td class="spacer"></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

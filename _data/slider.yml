@@ -1,0 +1,11 @@
+- src: "assets/images/slider/slide-1.svg"
+  alt: "Placeholder research image one"
+  caption: "Magnetically-driven micro-robot research"
+
+- src: "assets/images/slider/slide-2.svg"
+  alt: "Placeholder research image two"
+  caption: "Intelligent control in complex environments"
+
+- src: "assets/images/slider/slide-3.svg"
+  alt: "Placeholder research image three"
+  caption: "Biomedical and restricted-space applications"

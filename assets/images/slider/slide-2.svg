@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480" viewBox="0 0 980 480" role="img" aria-labelledby="title desc">
+  <title id="title">Research placeholder slide two</title>
+  <desc id="desc">Academic placeholder for intelligent control and navigation.</desc>
+  <rect width="980" height="480" fill="#f5f7fa"/>
+  <path d="M120 360 C240 120 430 438 575 188 C655 50 780 118 868 262" fill="none" stroke="#2c3e7a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="120" cy="360" r="26" fill="#c0392b"/>
+  <circle cx="575" cy="188" r="34" fill="#c0392b"/>
+  <circle cx="868" cy="262" r="26" fill="#c0392b"/>
+  <g fill="#2c3e7a" opacity="0.16">
+    <rect x="165" y="88" width="120" height="88"/>
+    <rect x="682" y="300" width="142" height="72"/>
+    <rect x="410" y="70" width="90" height="64"/>
+  </g>
+  <text x="490" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#2c3e7a" font-weight="700">Multi-Modal Motion and Control</text>
+</svg>

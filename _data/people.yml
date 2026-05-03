@@ -1,0 +1,37 @@
+pi:
+  name: "Xu Tiantian"
+  title: "Principal Investigator, Principal Researcher"
+  affiliation: "Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences"
+  email: "tt.xu@siat.ac.cn"
+  address: "1068 Xueyuan Avenue, Xili, Nanshan District, Shenzhen, Guangdong, 518055"
+  scholar: "https://scholar.google.com/citations?user=jSv44msAAAAJ&hl"
+  photo: "assets/images/people/placeholder-person.svg"
+  bio: "Prof. Xu Tiantian leads research on magnetically-driven micro-robots for targeted therapy, intelligent actuation, and navigation in complex environments. This biography is placeholder text for the first deployable version."
+
+postdocs:
+  - name: "Postdoctoral Fellow"
+    degree_source: "Ph.D., University Name"
+    title: "Postdoctoral Associate"
+    photo: "assets/images/people/placeholder-person.svg"
+    bio: "Brief placeholder biography describing research interests and current projects."
+
+phd_students:
+  - name: "PhD Student"
+    degree_source: "B.S., University Name"
+    title: "PhD Student"
+    enrollment_year: 2024
+    topic: "Magnetic microrobot swarm control"
+    photo: "assets/images/people/placeholder-person.svg"
+    bio: "Placeholder profile for a doctoral student."
+
+research_assistants:
+  - name: "Research Assistant"
+    degree_source: "M.S., University Name"
+    title: "Research Assistant"
+    photo: "assets/images/people/placeholder-person.svg"
+    bio: "Placeholder profile for a research assistant."
+
+alumni:
+  - name: "Former Member"
+    period: "2021-2024"
+    current_position: "Current position to be updated"

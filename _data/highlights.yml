@@ -1,0 +1,17 @@
+- date: "Apr. 2026"
+  headline: "Welcome to the Xu Research Lab website."
+  body: "This placeholder site demonstrates the lab homepage structure, recent highlights table, and data-driven content workflow."
+  link: "news/"
+  link_text: "View news"
+
+- date: "Mar. 2026"
+  headline: "Research highlights carousel prepared."
+  body: "Replace the placeholder slider images with lab figures, facility photos, or publication visuals when final content is ready."
+  link: ""
+  link_text: ""
+
+- date: "Jan. 2026"
+  headline: "Recruitment information available."
+  body: "Prospective PhD students, postdocs, and research assistants can review the openings page for placeholder application guidance."
+  link: "openings/"
+  link_text: "Openings"

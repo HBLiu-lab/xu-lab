@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Control research placeholder</title>
+  <rect width="640" height="360" fill="#f5f7fa"/>
+  <path d="M90 245 C190 80 310 292 420 138 C470 68 535 120 560 182" fill="none" stroke="#2c3e7a" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="90" cy="245" r="20" fill="#c0392b"/>
+  <circle cx="420" cy="138" r="28" fill="#c0392b"/>
+  <circle cx="560" cy="182" r="20" fill="#c0392b"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#2c3e7a" font-weight="700">Motion and Control</text>
+</svg>

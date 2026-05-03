@@ -1,0 +1,20 @@
+title: "Xu Research Lab"
+description: "Magnetically-driven micro-robot research at SIAT, Chinese Academy of Sciences"
+url: "https://HBliu-lab.github.io"
+baseurl: "/xu-lab"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - WEBSITE_BLUEPRINT.md

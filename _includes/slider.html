@@ -1,0 +1,19 @@
+<section class="slider-wrap" aria-label="Research highlights">
+  <div class="homepage-slider" data-slider>
+    <div class="slider-track">
+      {% for img in site.data.slider %}
+      <figure class="slide{% if forloop.first %} active{% endif %}">
+        <img src="{{ img.src | relative_url }}" alt="{{ img.alt }}">
+        {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+      </figure>
+      {% endfor %}
+    </div>
+    <button class="slider-control prev" type="button" data-slider-prev aria-label="Previous slide">&#8249;</button>
+    <button class="slider-control next" type="button" data-slider-next aria-label="Next slide">&#8250;</button>
+    <div class="slider-dots" aria-label="Slider pagination">
+      {% for img in site.data.slider %}
+      <button type="button" class="{% if forloop.first %}active{% endif %}" data-slider-dot="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+- src: "assets/images/gallery/lab-placeholder.svg"
+  thumb: "assets/images/gallery/lab-placeholder.svg"
+  caption: "Lab group photo placeholder"
+
+- src: "assets/images/gallery/demo-placeholder.svg"
+  thumb: "assets/images/gallery/demo-placeholder.svg"
+  caption: "Microrobot demonstration placeholder"
+
+- src: "assets/images/gallery/event-placeholder.svg"
+  thumb: "assets/images/gallery/event-placeholder.svg"
+  caption: "Academic event placeholder"

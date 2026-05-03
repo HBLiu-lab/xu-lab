@@ -1,0 +1,11 @@
+- title: "Novel Magnetically-Controlled Micro-Robot Design & Fabrication"
+  image: "assets/images/research/design.svg"
+  description: "Covers magnetic fluids, micro-robot swarms, soft thin-film robots, bioinspired robots, and continuum soft surgical robots."
+
+- title: "Multi-modal Motion & Cooperative Control"
+  image: "assets/images/research/control.svg"
+  description: "Explores multi-modal actuation mechanisms and cooperative control strategies in complex environments."
+
+- title: "Frontier Scene Applications"
+  image: "assets/images/research/applications.svg"
+  description: "Focuses on future clinical targeted therapy and operations in restricted spaces."

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480" viewBox="0 0 980 480" role="img" aria-labelledby="title desc">
+  <title id="title">Research placeholder slide one</title>
+  <desc id="desc">Blue academic placeholder image for magnetic microrobot research.</desc>
+  <rect width="980" height="480" fill="#eef3f8"/>
+  <rect x="70" y="72" width="840" height="336" fill="#ffffff" stroke="#dde1e7" stroke-width="3"/>
+  <circle cx="330" cy="240" r="78" fill="#2c3e7a" opacity="0.9"/>
+  <circle cx="476" cy="240" r="44" fill="#c0392b" opacity="0.86"/>
+  <path d="M548 238 C630 162 724 162 807 238 C724 314 630 314 548 238Z" fill="#7f8fbf" opacity="0.85"/>
+  <text x="490" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#2c3e7a" font-weight="700">Magnetically-Driven Micro-Robots</text>
+</svg>

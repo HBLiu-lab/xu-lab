@@ -1,0 +1,49 @@
+- year: 2026
+  authors: "Shu Wang; Wenhao Ju; Tiantian Xu"
+  title: "Long-term thrombus-free left atrial appendage occlusion via magnetofluids"
+  journal: "Nature"
+  volume_pages: "651: 91-99"
+  impact_factor: "Placeholder"
+  doi: "#"
+  badges:
+    - "Representative"
+
+- year: 2026
+  authors: "Pingyu Xiang; Tiantian Xu"
+  title: "Placeholder title for a Nature Sensors representative publication"
+  journal: "Nature Sensors"
+  volume_pages: "1(2): 181-193"
+  impact_factor: "Placeholder"
+  doi: "#"
+  badges:
+    - "Representative"
+
+- year: 2025
+  authors: "Ruijie Xie; Fei Han; Xu Tiantian; Zhiyuan Liu"
+  title: "A movable long-term implantable soft microfibre for dynamic bioelectronics"
+  journal: "Nature"
+  volume_pages: "645(8081): 648-655"
+  impact_factor: "Placeholder"
+  doi: "#"
+  badges:
+    - "Representative"
+
+- year: 2025
+  authors: "Ben Wang; Xu Tiantian"
+  title: "Placeholder title for a representative biomedical engineering publication"
+  journal: "Nature Biomedical Engineering"
+  volume_pages: "9(9): 1471-1485"
+  impact_factor: "Placeholder"
+  doi: "#"
+  badges:
+    - "Representative"
+
+- year: 2022
+  authors: "Tiantian Xu; Collaborators"
+  title: "Placeholder title for a representative robotics publication"
+  journal: "IEEE Transactions on Robotics"
+  volume_pages: "38(5): 2875"
+  impact_factor: "Placeholder"
+  doi: "#"
+  badges:
+    - "Representative"

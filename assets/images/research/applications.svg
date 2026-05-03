@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Applications research placeholder</title>
+  <rect width="640" height="360" fill="#eef3f8"/>
+  <path d="M112 184 H232 C270 184 278 118 318 118 C358 118 365 246 405 246 C440 246 448 184 485 184 H538" fill="none" stroke="#c0392b" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="320" cy="184" r="58" fill="#2c3e7a" opacity="0.22"/>
+  <circle cx="320" cy="184" r="18" fill="#2c3e7a"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#2c3e7a" font-weight="700">Frontier Applications</text>
+</svg>

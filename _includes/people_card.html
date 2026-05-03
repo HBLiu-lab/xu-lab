@@ -1,0 +1,13 @@
+<tr class="person-row">
+  <td class="spacer"></td>
+  <td class="photo"><img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.name }}"></td>
+  <td class="bio">
+    <div class="name">{{ include.member.name }}</div>
+    {% if include.member.degree_source %}<div class="degree">{{ include.member.degree_source }}</div>{% endif %}
+    {% if include.member.title %}<div class="title">{{ include.member.title }}</div>{% endif %}
+    {% if include.member.enrollment_year %}<div class="meta">Enrolled {{ include.member.enrollment_year }}</div>{% endif %}
+    {% if include.member.topic %}<div class="meta">{{ include.member.topic }}</div>{% endif %}
+    {% if include.member.bio %}<p>{{ include.member.bio }}</p>{% endif %}
+  </td>
+  <td class="spacer"></td>
+</tr>

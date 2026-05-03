@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Person placeholder</title>
+  <rect width="240" height="240" fill="#f5f7fa"/>
+  <circle cx="120" cy="86" r="42" fill="#2c3e7a" opacity="0.85"/>
+  <path d="M44 214 C58 158 88 136 120 136 C152 136 182 158 196 214Z" fill="#2c3e7a" opacity="0.85"/>
+  <text x="120" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#777777">Photo</text>
+</svg>
