@@ -3,6 +3,8 @@ layout: page
 title: Teaching
 ---
 
+<p>Course information will be updated after verification.</p>
+
 <table class="course-table">
   <thead>
     <tr>
@@ -14,16 +16,10 @@ title: Teaching
   </thead>
   <tbody>
     <tr>
-      <td>ROB 500</td>
-      <td>Microrobotics and Biomedical Applications</td>
-      <td>Graduate</td>
-      <td>To be updated</td>
-    </tr>
-    <tr>
-      <td>ENG 300</td>
-      <td>Introduction to Intelligent Robotic Systems</td>
-      <td>Undergraduate</td>
-      <td>To be updated</td>
+      <td>TODO</td>
+      <td>Course information to be updated</td>
+      <td>TODO</td>
+      <td>TODO</td>
     </tr>
   </tbody>
 </table>

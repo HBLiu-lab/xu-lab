@@ -1,11 +1,11 @@
 - src: "assets/images/slider/slide-1.svg"
-  alt: "Placeholder research image one"
-  caption: "Magnetically-driven micro-robot research"
+  alt: "Novel magnetically-controlled micro-robot design and fabrication"
+  caption: "Novel Magnetically-Controlled Micro-Robot Design & Fabrication"
 
 - src: "assets/images/slider/slide-2.svg"
-  alt: "Placeholder research image two"
-  caption: "Intelligent control in complex environments"
+  alt: "Multi-modal motion and cooperative control"
+  caption: "Multi-modal Motion & Cooperative Control"
 
 - src: "assets/images/slider/slide-3.svg"
-  alt: "Placeholder research image three"
-  caption: "Biomedical and restricted-space applications"
+  alt: "Frontier clinical and restricted-space applications"
+  caption: "Frontier Scene Applications"

@@ -1,37 +1,29 @@
 pi:
-  name: "Xu Tiantian"
-  title: "Principal Investigator, Principal Researcher"
+  name: "Xu Tiantian (徐天添)"
+  title: "Principal Researcher (研究员); Doctoral Supervisor (博导)"
   affiliation: "Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences"
   email: "tt.xu@siat.ac.cn"
   address: "1068 Xueyuan Avenue, Xili, Nanshan District, Shenzhen, Guangdong, 518055"
   scholar: "https://scholar.google.com/citations?user=jSv44msAAAAJ&hl"
   photo: "assets/images/people/placeholder-person.svg"
-  bio: "Prof. Xu Tiantian leads research on magnetically-driven micro-robots for targeted therapy, intelligent actuation, and navigation in complex environments. This biography is placeholder text for the first deployable version."
+  awards:
+    - "National Outstanding Youth Fund (B)"
+    - "IROS 2019 Best Application Paper (1/2494)"
+    - "China Electronics Society Natural Science 2nd Prize (Rank 1)"
+    - "Guangdong Science & Technology Progress 1st Prize"
+    - "Shenzhen Youth Science Award"
+    - "Shenzhen May 4th Youth Medal"
+  editorial_roles:
+    - "IEEE T-RO Associate Editor"
+    - "T-MECH Associate Editor"
+    - "T-ASE Associate Editor"
+    - "RAL Associate Editor"
+  bio: "Prof. Xu Tiantian is a Principal Researcher and National Outstanding Youth Fund recipient at SIAT. She has long conducted systematic research on magnetically-driven micro-robots for targeted therapy, establishing autonomous path planning and cooperative motion control methods. She has published 30+ IEEE Transactions papers, including 4 in TRO, and 10+ Nature-family papers as corresponding author."
 
-postdocs:
-  - name: "Postdoctoral Fellow"
-    degree_source: "Ph.D., University Name"
-    title: "Postdoctoral Associate"
-    photo: "assets/images/people/placeholder-person.svg"
-    bio: "Brief placeholder biography describing research interests and current projects."
+postdocs: []
 
-phd_students:
-  - name: "PhD Student"
-    degree_source: "B.S., University Name"
-    title: "PhD Student"
-    enrollment_year: 2024
-    topic: "Magnetic microrobot swarm control"
-    photo: "assets/images/people/placeholder-person.svg"
-    bio: "Placeholder profile for a doctoral student."
+phd_students: []
 
-research_assistants:
-  - name: "Research Assistant"
-    degree_source: "M.S., University Name"
-    title: "Research Assistant"
-    photo: "assets/images/people/placeholder-person.svg"
-    bio: "Placeholder profile for a research assistant."
+research_assistants: []
 
-alumni:
-  - name: "Former Member"
-    period: "2021-2024"
-    current_position: "Current position to be updated"
+alumni: []

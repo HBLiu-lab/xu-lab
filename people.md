@@ -25,35 +25,67 @@ title: People
         <a href="{{ site.data.people.pi.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
       </div>
       <p>{{ site.data.people.pi.bio }}</p>
+      {% if site.data.people.pi.awards %}
+      <h3>Selected Awards</h3>
+      <ul class="content-list">
+        {% for award in site.data.people.pi.awards %}
+        <li>{{ award }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if site.data.people.pi.editorial_roles %}
+      <h3>Editorial Roles</h3>
+      <ul class="content-list">
+        {% for role in site.data.people.pi.editorial_roles %}
+        <li>{{ role }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </td>
     <td class="spacer"></td>
   </tr>
 </table>
 
 <h2 id="postdocs">Postdoctoral Associates</h2>
+{% if site.data.people.postdocs and site.data.people.postdocs.size > 0 %}
 <table class="people-table">
   {% for member in site.data.people.postdocs %}
   {% include people_card.html member=member %}
   {% endfor %}
 </table>
+{% else %}
+<p>TODO: Postdoctoral associate profiles will be added after verification.</p>
+{% endif %}
 
 <h2 id="phd">PhD Students</h2>
+{% if site.data.people.phd_students and site.data.people.phd_students.size > 0 %}
 <table class="people-table">
   {% for member in site.data.people.phd_students %}
   {% include people_card.html member=member %}
   {% endfor %}
 </table>
+{% else %}
+<p>TODO: PhD student profiles will be added after verification.</p>
+{% endif %}
 
 <h2 id="ra">Research Assistants</h2>
+{% if site.data.people.research_assistants and site.data.people.research_assistants.size > 0 %}
 <table class="people-table">
   {% for member in site.data.people.research_assistants %}
   {% include people_card.html member=member %}
   {% endfor %}
 </table>
+{% else %}
+<p>TODO: Research assistant profiles will be added after verification.</p>
+{% endif %}
 
 <h2 id="alumni">Former Group Members</h2>
+{% if site.data.people.alumni and site.data.people.alumni.size > 0 %}
 <ul class="alumni-list">
   {% for alum in site.data.people.alumni %}
   <li><strong>{{ alum.name }}</strong> ({{ alum.period }}) - {{ alum.current_position }}</li>
   {% endfor %}
 </ul>
+{% else %}
+<p>TODO: Former member information will be added after verification.</p>
+{% endif %}

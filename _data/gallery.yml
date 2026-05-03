@@ -1,11 +1,11 @@
 - src: "assets/images/gallery/lab-placeholder.svg"
   thumb: "assets/images/gallery/lab-placeholder.svg"
-  caption: "Lab group photo placeholder"
+  caption: "TODO: Lab group photo"
 
 - src: "assets/images/gallery/demo-placeholder.svg"
   thumb: "assets/images/gallery/demo-placeholder.svg"
-  caption: "Microrobot demonstration placeholder"
+  caption: "TODO: Micro-robot demonstration photo"
 
 - src: "assets/images/gallery/event-placeholder.svg"
   thumb: "assets/images/gallery/event-placeholder.svg"
-  caption: "Academic event placeholder"
+  caption: "TODO: Academic event or lab activity photo"
