@@ -1,14 +1,4 @@
 # Gallery photos. If a separate thumbnail does not exist, set thumb to the same image as src.
-# Full-size images go in assets/images/gallery/.
-# Thumbnail images go in assets/images/gallery/thumbs/.
-- src: "assets/images/gallery/group-photo-2024.jpg"
-  thumb: "assets/images/gallery/thumbs/group-photo-2024-thumb.jpg"
-  caption: "Lab group photo 2024"
-
-- src: "assets/images/gallery/robot-demo.jpg"
-  thumb: "assets/images/gallery/robot-demo.jpg"
-  caption: "Micro-robot demonstration"
-
-- src: "assets/images/gallery/lab-event.jpg"
-  thumb: "assets/images/gallery/lab-event.jpg"
-  caption: "Lab event"
+- src: "/assets/images/gallery/photo-01.jpg"
+  thumb: "/assets/images/gallery/photo-01.jpg"
+  caption: "Lab photo"

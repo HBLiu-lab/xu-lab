@@ -16,6 +16,17 @@ All templates pass these paths through Jekyll's `relative_url` filter, so they w
 - `gallery/`: Full-size lab photos for the Photos page.
 - `gallery/thumbs/`: Optional thumbnails for gallery images. Use the same filename stem as the full-size image when possible.
 
+## Naming Rules
+
+Use lowercase English letters, numbers, and hyphens only. Avoid spaces, Chinese characters, parentheses, and punctuation.
+
+Examples:
+
+- `xu-tiantian.jpg`
+- `member-01.jpg`
+- `slider-01.png`
+- `photo-01.jpg`
+
 ## Current Placeholders
 
 The existing SVG files are placeholders and should remain as fallbacks. The first batch of real images has been connected in the YAML data files. When replacing or adding images, update the relevant YAML file instead of editing templates.

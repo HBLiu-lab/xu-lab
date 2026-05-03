@@ -79,6 +79,17 @@ title: People
 <p>TODO: Research assistant profiles will be added after verification.</p>
 {% endif %}
 
+<h2 id="pending">Members Pending Role Confirmation</h2>
+{% if site.data.people.members_pending_confirmation and site.data.people.members_pending_confirmation.size > 0 %}
+<table class="people-table">
+  {% for member in site.data.people.members_pending_confirmation %}
+  {% include people_card.html member=member %}
+  {% endfor %}
+</table>
+{% else %}
+<p>TODO: Additional member information will be added after verification.</p>
+{% endif %}
+
 <h2 id="alumni">Former Group Members</h2>
 {% if site.data.people.alumni and site.data.people.alumni.size > 0 %}
 <ul class="alumni-list">

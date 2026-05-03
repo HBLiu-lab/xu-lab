@@ -9,3 +9,12 @@
   body: "This award is included in the PI information provided by the website blueprint."
   link: "people/"
   link_text: "PI profile"
+
+- date: "TODO"
+  headline: "TODO: Confirm news title"
+  body: "TODO: Confirm the description and context for this news image."
+  link: ""
+  link_text: ""
+  image: "/assets/images/news/news-01.png"
+  image_alt: "News image"
+  image_caption: "TODO: confirm news image caption"

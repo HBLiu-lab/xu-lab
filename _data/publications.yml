@@ -1,47 +1,99 @@
 - year: 2026
-  authors: "Shu Wang; Wenhao Ju; Tiantian Xu"
+  authors: "Shu Wang; Wenhao Ju; Donglin Zhuang; Zhecheng Chen; Dongliang Zhao; Shunyuan Huang; Tiankuo Wang; Mingxue Cai; Siyu Liu; Shixiong Fu; Zhiguo Cheng; Wenchang Tan; Xiangbin Pan; Xinyu Wu; Shouzheng Wang; Tiantian Xu"
   title: "Long-term thrombus-free left atrial appendage occlusion via magnetofluids"
   journal: "Nature"
   volume_pages: "651: 91-99"
   impact_factor: 48.5
   doi: ""
   badges:
-    - "Q1"
-    - "ESI Highly Cited"
+    - "JCR Q1"
 
 - year: 2026
-  authors: "Pingyu Xiang; Tiantian Xu"
-  title: "TODO: full title to be verified"
+  authors: "Pingyu Xiang; Danying Sun; Guoyao Ma; Hongye Zhang; Rong Xiong; Yue Wang; Haojian Lu; Tiantian Xu"
+  title: "A portable and flexible intermediary patch for in vivo magnetic localization"
   journal: "Nature Sensors"
   volume_pages: "1(2): 181-193"
   impact_factor: ""
   doi: ""
-  badges: []
+  badges:
+    - "New journal"
 
 - year: 2025
-  authors: "Ruijie Xie; Fei Han; Xu Tiantian; Zhiyuan Liu"
+  authors: "Xie, Ruijie; Han, Fei; Yu, Qianhengyuan; Li, Dong; Han, Xu; Xu, Xiaolong; Yu, Huan; Huang, Jianping; Zhou, Xiaomeng; Zhao, Hang; Deng, Xinping; Tian, Qiong; Li, Qingsong; Li, Hanfei; Zhao, Yang; Ma, Guoyao; Li, Guanglin; Zheng, Hairong; Zhu, Meifang; Yan, Wei; Xu Tiantian; Liu, Zhiyuan"
   title: "A movable long-term implantable soft microfibre for dynamic bioelectronics"
   journal: "Nature"
   volume_pages: "645(8081): 648-655"
   impact_factor: 48.5
   doi: ""
   badges:
-    - "Q1"
+    - "JCR Q1"
 
 - year: 2025
-  authors: "Ben Wang; Xu Tiantian"
-  title: "TODO: full title to be verified"
+  authors: "Wang, Ben; Shen, Jie; Huang, Chenyang; Ye, Zhicheng; He, Jiajun; Wu, Xinyu; Guo, Zhiguang; Zhang, Li; Xu Tiantian"
+  title: "Magnetically driven biohybrid blood hydrogel fibres for personalized intracranial tumour therapy under fluoroscopic tracking"
   journal: "Nature Biomedical Engineering"
   volume_pages: "9(9): 1471-1485"
-  impact_factor: ""
+  impact_factor: 26.7
   doi: ""
-  badges: []
+  badges:
+    - "JCR Q1"
+
+- year: 2025
+  authors: "Jia Liu; Guoyao Ma; Shixiong Fu; Chenyang Huang; Xinyu Wu; Tiantian Xu"
+  title: "Ultrasound Image-based Average Q-learning Control of Magnetic Microrobots"
+  journal: "IEEE Transactions on Robotics"
+  volume_pages: "41: 1728-1741"
+  impact_factor: 10.5
+  doi: ""
+  badges:
+    - "JCR Q1"
+
+- year: 2024
+  authors: "Mingxue Cai; Zhaoyang Qi; Yanfei Cao; Xurui Liu; Xinyu Wu; Tiantian Xu; Li Zhang"
+  title: "Performance-Guided Rotating Magnetic Field Control in Large Workspaces With Reconfigurable Electromagnetic Actuation System"
+  journal: "IEEE Transactions on Robotics"
+  volume_pages: "40: 4117-4131"
+  impact_factor: 10.5
+  doi: ""
+  badges:
+    - "JCR Q1"
+
+- year: 2024
+  authors: "Chenyang Huang; Tiantian Xu; Dong Li; Xinyu Wu"
+  title: "Cooperative Control Strategy of Multiple Magnetic Millirobots for Automatic Assembly"
+  journal: "IEEE/ASME Transactions on Mechatronics"
+  volume_pages: "30(5): 3572-3583"
+  impact_factor: 7.3
+  doi: ""
+  badges:
+    - "JCR Q1"
+
+- year: 2023
+  authors: "Shu Wang; Ming Qiu; Jiancheng Liu; Ting Yin; Chong Wu; Chenyang Huang; Jianguo Han; Si Cheng; Qianbi Peng; Ye Li; Changjun Tie; Xinyu Wu; Shiwei Du; Tiantian Xu"
+  title: "Preshaped 4D Photocurable Ultratough Organogel Microcoils for Personalized Endovascular Embolization"
+  journal: "Advanced Materials"
+  volume_pages: "35(52): 2308130"
+  impact_factor: 26.8
+  doi: ""
+  badges:
+    - "JCR Q1"
 
 - year: 2022
-  authors: "Tiantian Xu; co-authors"
-  title: "TODO: full title to be verified"
+  authors: "Tiantian Xu; Chenyang Huang; Zhengyu Lai; Xinyu Wu"
+  title: "Independent Control Strategy of Multiple Magnetic Flexible Millirobots for Position Control and Path Following"
   journal: "IEEE Transactions on Robotics"
   volume_pages: "38(5): 2875"
-  impact_factor: ""
+  impact_factor: 10.5
   doi: ""
-  badges: []
+  badges:
+    - "JCR Q1"
+
+- year: 2022
+  authors: "Sheng Xu; Jia Liu; Chenguang Yang; Xinyu Wu; Tiantian Xu"
+  title: "A Learning-Based Stable Servo Control Strategy Using Broad Learning System Applied for Microrobotic Control"
+  journal: "IEEE Transactions on Cybernetics"
+  volume_pages: "52(12): 13727"
+  impact_factor: 10.5
+  doi: ""
+  badges:
+    - "JCR Q1"

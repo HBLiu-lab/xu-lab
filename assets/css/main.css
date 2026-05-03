@@ -379,6 +379,27 @@ p {
   font-weight: 700;
 }
 
+.news-image {
+  width: 100%;
+  max-width: 360px;
+  margin: 14px 0 4px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+}
+
+.news-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.news-image figcaption {
+  padding: 8px 10px;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+}
+
 .jump-links {
   display: flex;
   flex-wrap: wrap;
@@ -850,6 +871,10 @@ p {
   .highlight-entry span,
   .highlight-entry a {
     margin-left: 0;
+  }
+
+  .news-image {
+    max-width: 100%;
   }
 
   .research-grid,

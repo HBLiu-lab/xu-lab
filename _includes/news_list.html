@@ -1,0 +1,29 @@
+{% assign items = include.items | default: site.data.news %}
+<table class="highlights-table news-table">
+  <tbody>
+    {% for item in items %}
+    <tr>
+      <td class="spacer"></td>
+      <td class="entry">
+        <article class="highlight-entry news-entry">
+          <time>{{ item.date }}</time>
+          <div>
+            <strong>{{ item.headline }}</strong>
+            {% if item.body %}<span>{{ item.body }}</span>{% endif %}
+            {% if item.link %}
+              <a href="{{ item.link | relative_url }}"{% if item.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.link_text | default: "Read more" }}</a>
+            {% endif %}
+            {% if item.image %}
+            <figure class="news-image">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.headline }}">
+              {% if item.image_caption %}<figcaption>{{ item.image_caption }}</figcaption>{% endif %}
+            </figure>
+            {% endif %}
+          </div>
+        </article>
+      </td>
+      <td class="spacer"></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
