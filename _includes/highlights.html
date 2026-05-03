@@ -5,14 +5,16 @@
     <tr>
       <td class="spacer"></td>
       <td class="entry">
-        <p>
-          <strong>{{ item.date }}</strong>:
-          <strong>{{ item.headline }}</strong>
-          {{ item.body }}
+        <div class="highlight-entry">
+          <time>{{ item.date }}</time>
+          <div>
+            <strong>{{ item.headline }}</strong>
+            {% if item.body %}<span>{{ item.body }}</span>{% endif %}
           {% if item.link %}
-          <a href="{{ item.link | relative_url }}"{% if item.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.link_text | default: "Read more" }}</a>
+            <a href="{{ item.link | relative_url }}"{% if item.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ item.link_text | default: "Read more" }}</a>
           {% endif %}
-        </p>
+          </div>
+        </div>
       </td>
       <td class="spacer"></td>
     </tr>

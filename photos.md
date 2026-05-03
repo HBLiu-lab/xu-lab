@@ -6,7 +6,7 @@ title: Photos
 <div class="gallery-grid">
   {% for item in site.data.gallery %}
   <a class="gallery-item" href="{{ item.src | relative_url }}" data-lightbox>
-    <img src="{{ item.thumb | relative_url }}" alt="{{ item.caption }}">
+    <img src="{{ item.thumb | relative_url }}" alt="{{ item.caption }}" loading="lazy">
     <span>{{ item.caption }}</span>
   </a>
   {% endfor %}

@@ -12,7 +12,7 @@ title: People
 </div>
 
 <h2 id="pi">Principal Investigator</h2>
-<table class="people-table">
+<table class="people-table pi-table">
   <tr class="person-row">
     <td class="spacer"></td>
     <td class="photo"><img src="{{ site.data.people.pi.photo | relative_url }}" alt="{{ site.data.people.pi.name }}"></td>
@@ -20,8 +20,10 @@ title: People
       <div class="name">{{ site.data.people.pi.name }}</div>
       <div class="title">{{ site.data.people.pi.title }}</div>
       <div class="affiliation">{{ site.data.people.pi.affiliation }}</div>
-      <div class="meta"><a href="mailto:{{ site.data.people.pi.email }}">{{ site.data.people.pi.email }}</a></div>
-      <div class="meta"><a href="{{ site.data.people.pi.scholar }}" target="_blank" rel="noopener">Google Scholar</a></div>
+      <div class="person-links">
+        <a href="mailto:{{ site.data.people.pi.email }}">{{ site.data.people.pi.email }}</a>
+        <a href="{{ site.data.people.pi.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      </div>
       <p>{{ site.data.people.pi.bio }}</p>
     </td>
     <td class="spacer"></td>

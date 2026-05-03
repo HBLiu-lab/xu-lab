@@ -1,12 +1,17 @@
-<li>
-  <span class="authors">{{ include.pub.authors | replace: "Tiantian Xu", "<strong>Tiantian Xu</strong>" | replace: "Xu Tiantian", "<strong>Xu Tiantian</strong>" }}</span>.
-  <span class="pub-title">{{ include.pub.title }}</span>.
-  <span class="journal">{{ include.pub.journal }}</span>,
-  {{ include.pub.year }}, {{ include.pub.volume_pages }}.
+<li class="pub-entry">
+  <div class="pub-main">
+    <span class="authors">{{ include.pub.authors | replace: "Tiantian Xu", "<strong>Tiantian Xu</strong>" | replace: "Xu Tiantian", "<strong>Xu Tiantian</strong>" }}</span>.
+    <span class="pub-title">{{ include.pub.title }}</span>.
+  </div>
+  <div class="pub-meta">
+    <span class="journal">{{ include.pub.journal }}</span>,
+    <span>{{ include.pub.year }}</span>,
+    <span>{{ include.pub.volume_pages }}</span>.
   {% if include.pub.doi and include.pub.doi != "" %}
-    <a href="{{ include.pub.doi }}" target="_blank" rel="noopener">DOI</a>
+    <a class="doi-link" href="{{ include.pub.doi }}" target="_blank" rel="noopener">DOI</a>
   {% endif %}
   {% for badge in include.pub.badges %}
     <span class="badge">{{ badge }}</span>
   {% endfor %}
+  </div>
 </li>

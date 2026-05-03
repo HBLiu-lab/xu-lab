@@ -4,9 +4,24 @@
     var links = document.querySelector(".nav-links");
     if (!toggle || !links) return;
 
+    function closeMenu() {
+      links.classList.remove("open");
+      toggle.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
     toggle.addEventListener("click", function () {
       var isOpen = links.classList.toggle("open");
+      toggle.classList.toggle("open", isOpen);
       toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    links.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closeMenu();
     });
   }
 
@@ -20,11 +35,13 @@
     var next = slider.querySelector("[data-slider-next]");
     var index = 0;
     var timer = null;
+    var touchStartX = 0;
 
     function show(nextIndex) {
       index = (nextIndex + slides.length) % slides.length;
       slides.forEach(function (slide, slideIndex) {
         slide.classList.toggle("active", slideIndex === index);
+        slide.setAttribute("aria-hidden", String(slideIndex !== index));
       });
       dots.forEach(function (dot, dotIndex) {
         dot.classList.toggle("active", dotIndex === index);
@@ -60,6 +77,23 @@
     });
 
     if (slides.length > 1) start();
+
+    slider.addEventListener("mouseenter", function () {
+      window.clearInterval(timer);
+    });
+
+    slider.addEventListener("mouseleave", start);
+
+    slider.addEventListener("touchstart", function (event) {
+      touchStartX = event.changedTouches[0].clientX;
+    }, { passive: true });
+
+    slider.addEventListener("touchend", function (event) {
+      var deltaX = event.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(deltaX) < 40) return;
+      show(deltaX > 0 ? index - 1 : index + 1);
+      start();
+    }, { passive: true });
   }
 
   function setupLightbox() {
@@ -69,15 +103,18 @@
     var image = viewer.querySelector("img");
     var caption = viewer.querySelector("p");
     var close = viewer.querySelector("[data-lightbox-close]");
+    var previousFocus = null;
 
     document.querySelectorAll("[data-lightbox]").forEach(function (link) {
       link.addEventListener("click", function (event) {
         event.preventDefault();
+        previousFocus = document.activeElement;
         image.src = link.href;
         image.alt = link.querySelector("img").alt || "";
         caption.textContent = link.textContent.trim();
         viewer.classList.add("open");
         viewer.setAttribute("aria-hidden", "false");
+        if (close) close.focus();
       });
     });
 
@@ -85,6 +122,7 @@
       viewer.classList.remove("open");
       viewer.setAttribute("aria-hidden", "true");
       image.src = "";
+      if (previousFocus && previousFocus.focus) previousFocus.focus();
     }
 
     if (close) close.addEventListener("click", hide);
