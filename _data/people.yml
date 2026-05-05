@@ -20,39 +20,61 @@ pi:
     - "RAL Associate Editor"
   bio: "Prof. Xu Tiantian is a Principal Researcher and National Outstanding Youth Fund recipient at SIAT. She has long conducted systematic research on magnetically-driven micro-robots for targeted therapy, establishing autonomous path planning and cooperative motion control methods. She has published 30+ IEEE Transactions papers, including 4 in TRO, and 10+ Nature-family papers as corresponding author."
 
-postdocs: []
-
-phd_students: []
-
-research_assistants: []
-
-members_pending_confirmation:
+co_investigators:
   - name: "蔡明学"
     photo: "/assets/images/people/member-01.jpg"
+    profile_url: "https://people.ucas.ac.cn/~caimingxue"
     bio: "TODO: Role, title, and biography to be confirmed."
   - name: "刘佳"
     photo: "/assets/images/people/member-02.jpg"
+    profile_url: "https://people.ucas.ac.cn/~0073473"
     bio: "TODO: Role, title, and biography to be confirmed."
   - name: "徐升"
     photo: "/assets/images/people/member-03.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "黄晨阳"
-    photo: "/assets/images/people/member-04.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "付仕雄"
-    photo: "/assets/images/people/member-05.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "彭乾碧"
-    photo: "/assets/images/people/member-06.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "马国耀"
-    photo: "/assets/images/people/member-07.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "李冬"
-    photo: "/assets/images/people/member-08.jpg"
-    bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "刘慧彬"
-    photo: "/assets/images/people/member-09.jpg"
+    profile_url: "https://people.ucas.edu.cn/~Sheng_Xu"
     bio: "TODO: Role, title, and biography to be confirmed."
 
-alumni: []
+postdocs:
+  - name: "Huang Chenyang (黄晨阳)"
+    degree_source: "Ph. D. Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences (中国科学院深圳先进技术研究院)"
+    title: "Postdoctoral Research Associate"
+    photo: "/assets/images/people/member-04.jpg"
+    research_interest: "Design and development of magnetically driven microrobots"
+    bio: "Dr. Huang Chenyang joined Prof. Xu Tiantian's group as a postdoctoral research associate in 2024. He received his PhD degree from the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences."
+
+phd_students:
+  - name: "马国耀"
+    program: "PhD Student"
+    enrollment_year: 2023
+    grade_rollover_month: 9
+    graduated: false
+    photo: "/assets/images/people/member-07.jpg"
+    research_interest: "TODO"
+  - name: "李冬"
+    program: "PhD Student"
+    enrollment_year: 2024
+    grade_rollover_month: 9
+    graduated: false
+    photo: "/assets/images/people/member-08.jpg"
+    research_interest: "TODO"
+  - name: "刘慧彬"
+    program: "PhD Student"
+    enrollment_year: 2025
+    grade_rollover_month: 9
+    graduated: false
+    photo: "/assets/images/people/member-09.jpg"
+    research_interest: "TODO"
+
+research_assistants: []
+
+members_pending_confirmation: []
+
+alumni:
+  - name: "付仕雄"
+    program: "PhD Student"
+    graduated: true
+    photo: "/assets/images/people/member-05.jpg"
+  - name: "彭乾碧"
+    program: "PhD Student"
+    graduated: true
+    photo: "/assets/images/people/member-06.jpg"

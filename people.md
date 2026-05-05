@@ -5,6 +5,7 @@ title: People
 
 <div class="jump-links">
   <a href="#pi">PI</a>
+  <a href="#co-investigators">Team Co-Investigators</a>
   <a href="#postdocs">Postdoctoral Associates</a>
   <a href="#phd">PhD Students</a>
   <a href="#ra">Research Assistants</a>
@@ -45,6 +46,17 @@ title: People
     <td class="spacer"></td>
   </tr>
 </table>
+
+<h2 id="co-investigators">Team Co-Investigators</h2>
+{% if site.data.people.co_investigators and site.data.people.co_investigators.size > 0 %}
+<table class="people-table">
+  {% for member in site.data.people.co_investigators %}
+  {% include people_card.html member=member %}
+  {% endfor %}
+</table>
+{% else %}
+<p>TODO: Team co-investigator profiles will be added after verification.</p>
+{% endif %}
 
 <h2 id="postdocs">Postdoctoral Associates</h2>
 {% if site.data.people.postdocs and site.data.people.postdocs.size > 0 %}
@@ -92,11 +104,11 @@ title: People
 
 <h2 id="alumni">Former Group Members</h2>
 {% if site.data.people.alumni and site.data.people.alumni.size > 0 %}
-<ul class="alumni-list">
-  {% for alum in site.data.people.alumni %}
-  <li><strong>{{ alum.name }}</strong> ({{ alum.period }}) - {{ alum.current_position }}</li>
+<table class="people-table">
+  {% for member in site.data.people.alumni %}
+  {% include people_card.html member=member %}
   {% endfor %}
-</ul>
+</table>
 {% else %}
 <p>TODO: Former member information will be added after verification.</p>
 {% endif %}

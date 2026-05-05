@@ -134,9 +134,39 @@
     });
   }
 
+  function setupAcademicYears() {
+    var statusNodes = document.querySelectorAll("[data-enrollment-year][data-program]");
+    if (!statusNodes.length) return;
+
+    var now = new Date();
+    var currentYear = now.getFullYear();
+    var currentMonth = now.getMonth() + 1;
+
+    statusNodes.forEach(function (node) {
+      var enrollmentYear = Number(node.getAttribute("data-enrollment-year"));
+      var rolloverMonth = Number(node.getAttribute("data-rollover-month") || "9");
+      var program = node.getAttribute("data-program") || "PhD Student";
+      var graduated = node.getAttribute("data-graduated") === "true";
+
+      if (!enrollmentYear) return;
+
+      var academicYear = currentMonth >= rolloverMonth ? currentYear : currentYear - 1;
+      var yearNumber = academicYear - enrollmentYear + 1;
+
+      if (graduated || yearNumber > 4) {
+        node.textContent = "Former " + program;
+        return;
+      }
+
+      if (yearNumber < 1) yearNumber = 1;
+      node.textContent = "Year " + yearNumber + " " + program;
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     setupNav();
     setupSlider();
     setupLightbox();
+    setupAcademicYears();
   });
 })();

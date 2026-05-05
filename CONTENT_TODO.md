@@ -5,7 +5,7 @@ The website now uses only information explicitly provided in `WEBSITE_BLUEPRINT.
 ## Successfully Integrated Assets
 
 - People images from `teamlab-information/people` copied to `assets/images/people/`.
-- People names from `teamlab-information/people/name.txt` added to `members_pending_confirmation` where role/category is not confirmed.
+- People names from `teamlab-information/people/name.txt` parsed into PI, Team Co-Investigators, Postdoctoral Associates, current PhD students, and former PhD students where the category was explicit.
 - Homepage images from `teamlab-information/home` copied to `assets/images/slider/` and connected in `_data/slider.yml`.
 - Gallery image from `teamlab-information/photos` copied to `assets/images/gallery/` and connected in `_data/gallery.yml`.
 - Publication records from `teamlab-information/publication/publication.txt` added to `_data/publications.yml` with DOI fields left blank.
@@ -13,7 +13,10 @@ The website now uses only information explicitly provided in `WEBSITE_BLUEPRINT.
 ## Needs Manual Confirmation
 
 - Confirm each member's role/category: postdoc, PhD student, research assistant, alumni, or other.
-- Confirm English names or preferred romanization for Chinese member names.
+- Confirm English names or preferred romanization for 蔡明学, 刘佳, 徐升, 付仕雄, 彭乾碧, 马国耀, 李冬, and 刘慧彬.
+- Confirm research interests for current PhD students: 马国耀, 李冬, and 刘慧彬.
+- Confirm research interests and full profile details for Team Co-Investigators: 蔡明学, 刘佳, and 徐升.
+- Confirm graduation destination and graduation year for former PhD students: 付仕雄 and 彭乾碧.
 - Confirm captions for homepage slider images.
 - Confirm caption for `assets/images/gallery/photo-01.jpg`.
 - Confirm the title, date, description, and caption for `assets/images/news/news-01.png`.
@@ -37,3 +40,10 @@ Still Needed:
 - Optional thumbnails for gallery images in `assets/images/gallery/thumbs/`.
 - Additional verified lab gallery photos and captions.
 - Confirm whether older gallery images should remain in use or be archived.
+
+## People Page Automation
+
+- PhD student year labels are calculated in the browser from `enrollment_year`, `grade_rollover_month`, `program`, and `graduated`.
+- The rollover month is September (`grade_rollover_month: 9`).
+- Year labels are capped at Year 4. After Year 4, the page displays `Former PhD Student`.
+- If `graduated: true`, the page displays `Former PhD Student` regardless of enrollment year.
