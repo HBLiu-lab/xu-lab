@@ -25,13 +25,13 @@ co_investigators:
     photo: "/assets/images/people/member-01.jpg"
     profile_url: "https://people.ucas.ac.cn/~caimingxue"
     bio: "TODO: Role, title, and biography to be confirmed."
-  - name: "刘佳"
-    photo: "/assets/images/people/member-02.jpg"
-    profile_url: "https://people.ucas.ac.cn/~0073473"
-    bio: "TODO: Role, title, and biography to be confirmed."
   - name: "徐升"
     photo: "/assets/images/people/member-03.jpg"
     profile_url: "https://people.ucas.edu.cn/~Sheng_Xu"
+    bio: "TODO: Role, title, and biography to be confirmed."
+  - name: "刘佳"
+    photo: "/assets/images/people/member-02.jpg"
+    profile_url: "https://people.ucas.ac.cn/~0073473"
     bio: "TODO: Role, title, and biography to be confirmed."
 
 postdocs:
